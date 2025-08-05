@@ -36,7 +36,8 @@ export function ToDoListv2() {
           name=""
           id=""
           defaultValue=""
-          onChange={(e) => handleSelectClick(e, activity)}
+          onChange={(e) => handleSelectClick(e, activity)            
+          }
         >
           <option value="" disabled hidden></option>
           <option value="Edit">Edit</option>
@@ -83,5 +84,6 @@ export function ToDoListv2() {
         Add ToDo
       </button> */}
     </>
+    
   );
 }
